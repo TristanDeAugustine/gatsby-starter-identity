@@ -1,5 +1,6 @@
 import React from 'react';
 import config from '../../config';
+import pdf from '"../assets/files/resume.pdf"';
 
 export default function Footer() {
   return (
@@ -17,7 +18,7 @@ export default function Footer() {
         })}
       </ul>
       <a
-        href="../assets/files/resume.pdf"
+        href={pdf}
         download
         style={{ textAlign: 'center', fontSize: '1.5rem', margin: '1rem' }}
       >
