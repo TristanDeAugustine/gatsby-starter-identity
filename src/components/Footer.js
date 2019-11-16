@@ -1,6 +1,6 @@
 import React from 'react';
 import config from '../../config';
-import pdf from '"../assets/files/resume.pdf"';
+import pdf from '../assets/files/resume.pdf';
 
 export default function Footer() {
   return (
