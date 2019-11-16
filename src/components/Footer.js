@@ -16,6 +16,13 @@ export default function Footer() {
           );
         })}
       </ul>
+      <a
+        href="../assets/files/resume.pdf"
+        download
+        style={{ textAlign: 'center', fontSize: '1.5rem', margin: '1rem' }}
+      >
+        Click to download my resume
+      </a>
     </footer>
   );
 }
